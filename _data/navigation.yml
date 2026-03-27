@@ -1,15 +1,24 @@
-# Recruiter-focused top navigation
+# Main site navigation
 main:
-  - title: "About"
+  - title: "Home"
     url: /
 
-  - title: "Experience"
-    url: /experience/
+  - title: "About"
+    url: /about/
 
   - title: "Research"
+    url: /research/
+
+  - title: "Publications"
     url: /publications/
 
-  - title: "Resume & CV"
+  - title: "Teaching & Mentoring"
+    url: /teaching/
+
+  - title: "Talks & Outreach"
+    url: /outreach/
+
+  - title: "CV"
     url: /cv/
 
   - title: "Contact"
