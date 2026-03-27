@@ -1,36 +1,39 @@
 ---
-layout: archive
-title: "Publications"
+layout: single
+title: "Research & Publications"
 permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
+You can also find a fuller publication list on <a href="https://scholar.google.com/citations?user=PS_CX0AAAAAJ">Google Scholar</a>.
 
-{% include base_path %}
+## Research Focus
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+- Real-world evidence and pharmacoepidemiology
+- Anticholinergic burden, delirium, and medication safety
+- Evidence strategy for neuroscience, mental health, and oncology
+- Data quality, medication ascertainment, and fit-for-purpose real-world data
+- Economic and outcomes research for clinical and market access decision-making
 
+## Selected Publications
 
+1. **Khalil, H., Keshk, N., Khan, B., Gao, S., Campbell, N. L. (2025).** Community-Based Anticholinergic Exposure and Delirium: A Systematic Review. *Delirium*.
+1. **Noll, L. C., Holden, R. J., Gao, S., Unverzagt, F. W., Lane, K. A., Carter, A., Harrington, A. B., Manoharan, S., Manoharan, N., Rosenthal, D. L., Pitts, C., Pelkey, K., Papineau, E., Lauck, D. M., Keshk, N., Alamer, K., Khalil, H., Boustani, M. A. (2024).** Deprescribing Anticholinergics to Preserve Brain Health (R2D2): Study Protocol for a Randomized Clinical Trial. *Trials*, 25(1):788.
+1. **Khalil, H., Lahoud, N. (2020).** Knowledge of Stroke Warning Signs, Risk Factors, and Response to Stroke Among Lebanese Older Adults in Beirut. *Journal of Stroke & Cerebrovascular Diseases*, 29(5):104716.
 
+## Selected Conference Presentations
+
+1. **Khalil, H., Campbell, N., Foster, D., Ahmed, I., Bushey, M. (2024).** Medication data in research: Improving completeness using rule-based algorithms on textual variables. *International Society for Pharmacoepidemiology Annual Meeting, Berlin*.
+1. **Khalil, H., Al Habbab, T., Fowler, C. R., Nili, M., Keefe, R. S. (2024).** Investigational drugs for the treatment of cognitive impairments of schizophrenia: A review of trials. *Psych Congress 2024, Boston*.
+1. **Khalil, H., Khan, B., Khan, S., Boustani, M., Campbell, N. C. (2025).** Association between cumulative anticholinergic burden and prevalent delirium in critically ill adults. *American Delirium Society Annual Meeting, Nashville*.
+1. **Khalil, H., Alamer, K., Campbell, N. (2022).** A systematic review of pre-hospital medication exposure on the risk of delirium. *American Delirium Society Annual Meeting, Indianapolis*.
+
+## Ongoing Work
+
+- Socioeconomic disparities in supportive care medication use among pancreatic cancer patients with Medicare
+- Cumulative anticholinergic burden and delirium prevalence in critically ill adults
+- Opioid and buprenorphine treatment utilization using EHR and prescription monitoring data
+
+## Why This Matters in Industry
+
+My research portfolio supports the same decisions HEOR and RWE teams make in practice: selecting data sources, defining fit-for-purpose evidence strategies, quantifying burden, designing observational studies, and communicating clinically meaningful findings to cross-functional stakeholders.
